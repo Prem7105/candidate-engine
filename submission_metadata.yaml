@@ -1,0 +1,54 @@
+team_name: "solo-ranker"
+
+primary_contact:
+  name: "Participant"
+  email: "participant@example.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "Participant"
+    email: "participant@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/USERNAME/redrob-ranker"
+
+sandbox_link: "https://huggingface.co/spaces/USERNAME/redrob-ranker"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "Windows PC"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.13"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 15
+
+ai_tools_used:
+  - "Claude"
+  - "GitHub Copilot"
+
+ai_usage_summary: |
+  Used Claude for architecture discussion and code review.
+  Used Copilot for autocomplete during implementation.
+  All scoring logic, weight tuning, and design decisions are original work.
+  No candidate data was fed to any LLM during ranking.
+
+methodology_summary: |
+  Two-stage pipeline: pre-compute embeddings (all-MiniLM-L6-v2) + FAISS index offline,
+  then rank in under 5 minutes. Seven scoring dimensions: semantic similarity, skill
+  relevance (weighted with anti-stuffing trust multiplier), experience fit (Gaussian
+  centered on JD range), career trajectory (product vs consulting, title analysis),
+  behavioral signals (response rate, recency, notice period), location, and education.
+  Honeypot detection via career date/duration inconsistency and impossible skill patterns.
+  Reasoning generated per-candidate from actual profile details.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

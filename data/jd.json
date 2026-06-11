@@ -1,0 +1,58 @@
+{
+  "title": "Senior AI Engineer — Founding Team",
+  "company": "Redrob AI",
+  "company_stage": "Series A",
+  "location_text": "Pune/Noida, India (Hybrid) | Open to relocation from Tier-1 Indian cities",
+  "employment_type": "Full-time",
+  "experience_range": {"min": 5, "max": 9},
+  "experience_note": "Range, not hard requirement. 4 years OK if signals are strong. Practical production experience matters more than years.",
+
+  "must_have_skills": [
+    "Production experience with embeddings-based retrieval systems (sentence-transformers, OpenAI embeddings, BGE, E5, or similar)",
+    "Production experience with vector databases or hybrid search infrastructure (Pinecone, Weaviate, Qdrant, Milvus, OpenSearch, Elasticsearch, FAISS)",
+    "Strong Python and code quality",
+    "Hands-on experience designing evaluation frameworks for ranking systems (NDCG, MRR, MAP, A/B testing)"
+  ],
+
+  "nice_to_have_skills": [
+    "LLM fine-tuning experience (LoRA, QLoRA, PEFT)",
+    "Learning-to-rank models (XGBoost-based or neural)",
+    "HR-tech, recruiting tech, or marketplace products exposure",
+    "Distributed systems or large-scale inference optimization",
+    "Open-source contributions in AI/ML"
+  ],
+
+  "disqualifiers": [
+    "Pure research career without production deployment",
+    "AI experience only from recent LangChain/OpenAI projects (<12 months)",
+    "Senior engineer who hasn't written production code in 18+ months",
+    "Consulting-only career (TCS, Infosys, Wipro, Accenture, Cognizant, Capgemini) without product company experience",
+    "Primary expertise in CV/speech/robotics without NLP/IR exposure",
+    "Title-chasers switching companies every 1.5 years for title bumps"
+  ],
+
+  "location_preferences": {
+    "primary": ["Pune", "Noida"],
+    "acceptable": ["Hyderabad", "Mumbai", "Delhi NCR", "Bangalore"],
+    "country": "India",
+    "visa_sponsorship": false,
+    "work_mode": "hybrid"
+  },
+
+  "notice_period_preference": {
+    "ideal": "sub-30 days",
+    "buyout_limit": 30,
+    "acceptable_with_higher_bar": "30+ days"
+  },
+
+  "ideal_candidate_profile": "6-8 years total experience, 4-5 in applied ML/AI at product companies. Has shipped at least one end-to-end ranking, search, or recommendation system to real users at meaningful scale. Strong opinions about retrieval (hybrid vs dense), evaluation (offline vs online), and LLM integration. Located in or willing to relocate to Noida or Pune. Active on the platform.",
+
+  "culture_signals": [
+    "Async-first, writing-heavy",
+    "Disagree openly, decide quickly",
+    "Move fast, break internal assumptions not user systems",
+    "Shipper > researcher mentality"
+  ],
+
+  "full_text": "Job Description: Senior AI Engineer — Founding Team\nCompany: Redrob AI (Series A AI-native talent intelligence platform)\nLocation: Pune/Noida, India (Hybrid — flexible cadence) | Open to relocation candidates from Tier-1 Indian cities\nEmployment Type: Full-time\nExperience Required: 5-9 years\n\nWe need someone who is simultaneously comfortable with deep technical depth in modern ML systems — embeddings, retrieval, ranking, LLMs, fine-tuning — and a scrappy product-engineering attitude, willing to ship a working ranker in a week. Own the intelligence layer of Redrob's product: ranking, retrieval, and matching systems.\n\nMust-have: Production experience with embeddings-based retrieval systems. Production experience with vector databases or hybrid search infrastructure. Strong Python. Evaluation frameworks for ranking systems (NDCG, MRR, MAP).\n\nNice-to-have: LLM fine-tuning (LoRA, QLoRA, PEFT). Learning-to-rank models. HR-tech exposure. Distributed systems. Open-source contributions.\n\nDisqualifiers: Pure research without production. LangChain-only AI experience. No recent code. Consulting-only career. CV/speech/robotics without NLP."
+}

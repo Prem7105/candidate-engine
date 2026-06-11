@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Models (large files — regenerate with precompute.py)
+models*/
+sample_models/
+*.npy
+*.index
+*.pkl
+
+# Massive JSONL data
+*.jsonl
+[PUB]*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Temp files
+*.tmp
+jd.txt
+signals.txt
+signals_full.txt
+spec.txt
+readme_doc.txt
