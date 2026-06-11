@@ -1,5 +1,8 @@
 # Candidate Ranking System — Redrob AI Hackathon
 
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+**Live Demo:** [https://candidate-engine.streamlit.app/](https://candidate-engine.streamlit.app/)
+
 A semantic candidate-JD matching and ranking system built for the "Intelligent Candidate Discovery & Ranking Challenge" (India Runs by Redrob AI).
 
 Given a job description for **Senior AI Engineer** and a pool of **100,000 candidate profiles**, the system identifies and ranks the top 100 best-fit candidates with per-candidate explanations.
